@@ -1,7 +1,7 @@
 # 北邮机器人队程序库使用说明
 
-Author: Simon
-Date: 2021-09-27
+Author: Simon LiNY-01 woshiren
+Date: 2023-9-13
 
 程序库分为`ChassisLib`,`MotorLib`,`SimpleLib`三个功能库，用途分别如下：
 
@@ -19,6 +19,11 @@ Date: 2021-09-27
   3. 实现了舵轮全向轮、横辊子全向轮、麦克纳姆轮底盘的运动学解算及控制。
   4. 遥控手柄的数据处理等。
   5. 一些调试工具，例如`/path_record`中实现了PC接收主控通过蓝牙串口发来的底盘坐标，通过matplotlib库绘制底盘实时轨迹与期望轨迹。
+
++ ChassisLib_CXX
+
+  	1. ChassisLib_CXX是ChassisLib的C++版本，采用了面向对象的方式编程
+   	2. 使用方式和ChassLib几乎没有差别
 
 + MotorLib
 
